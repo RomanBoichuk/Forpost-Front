@@ -171,7 +171,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../../assets/styles/variables';
+@import '../../../assets/styles/variables';
 .aplication {
   position: absolute;
   top: 0px;

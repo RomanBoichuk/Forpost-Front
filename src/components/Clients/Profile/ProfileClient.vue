@@ -27,7 +27,8 @@
                         </v-avatar>
                     </v-col>
                     <v-col>
-                        <v-form ref="form" @submit.prevent="saveAvatar">
+                        <v-form ref="form">
+                            <!-- <v-form ref="form" @submit.prevent="saveAvatar"> -->
                             <!-- --------------------------------------------- -->
                             <!-- РОЗДІЛ 1 -->
                             <!--Персональні дані клієнта, ПІБ, ІПН, тел -->
@@ -480,7 +481,7 @@
 
 <script>
 import DocToWord from '@/components/DocToWord/DocToWord.vue'
-import ContractAplication from '../components/Applications/ContractAplication.vue'
+import ContractAplication from '../../CreditContracts/Applications/ContractAplication.vue'
 import { mapActions, mapState } from 'vuex'
 
 export default {
@@ -717,7 +718,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../assets/styles/variables';
+@import '../../../assets/styles/variables';
 .box {
     border: 1px solid $bordercolor;
     padding-left: 10px;

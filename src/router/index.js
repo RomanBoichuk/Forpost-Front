@@ -36,7 +36,7 @@ const routes = [
   {
     path: '/profileClient',
     name: 'ProfileClient',
-    component: () => import('../views/ProfileClient.vue'),
+    component: () => import('../components/Clients/Profile/ProfileClient'),
     props: true
   },
   {

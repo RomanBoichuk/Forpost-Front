@@ -15,7 +15,7 @@
 <script>
 import { mapActions, mapState } from 'vuex'
 import ContractsListTable from '../components/CreditContracts/ContractsListTable.vue'
-import ContractAplication from '../components/Applications/ContractAplication.vue'
+import ContractAplication from '../components/CreditContracts/Applications/ContractAplication.vue'
 
 export default {
   name: 'CreditContracts',

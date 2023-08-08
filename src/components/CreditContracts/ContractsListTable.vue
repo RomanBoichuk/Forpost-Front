@@ -1,5 +1,5 @@
 <template>
-    <div class="hello">
+    <div class="contracts-table">
         <pay-credit-modal-card
           v-if="modalCardVisible"
           :clientDataProp="payCreditModalCardData"

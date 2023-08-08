@@ -1,6 +1,7 @@
 <template>
     <div class="clients-list">
         <div class="content-table">
+            <!-- Кнопки для здійснення різних дій -->
             <div class="content-table__header">
                 <div>
                   <button
@@ -10,6 +11,7 @@
                   </button>
                 </div>
             </div>
+            <!-- Список кредитних клієнтів -->
             <div class="content-table__inner">
                 <div class="table-inner">
                     <table class="table">
